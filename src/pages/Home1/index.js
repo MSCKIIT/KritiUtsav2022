@@ -192,7 +192,7 @@ const Home1Page = () => {
                       </Row>
                     </Column>
                     <Column
-                      className="bg-cover bg-repeat lg:h-[211px] xl:h-[264px] 2xl:h-[297px] 3xl:h-[356px] items-end 2xl:px-[10px] 3xl:px-[12px] lg:px-[7px] xl:px-[8px] lg:w-[210px] xl:w-[263px] 2xl:w-[296px] 3xl:w-[355px]"
+                      className="common-pointer bg-cover bg-repeat lg:h-[211px] xl:h-[264px] 2xl:h-[297px] 3xl:h-[356px] items-end 2xl:px-[10px] 3xl:px-[12px] lg:px-[7px] xl:px-[8px] lg:w-[210px] xl:w-[263px] 2xl:w-[296px] 3xl:w-[355px]"
                       style={{
                         backgroundImage: "url('images/img_group21.png')",
                       }}
@@ -210,7 +210,7 @@ const Home1Page = () => {
                       </Row>
                     </Column>
                     <Column
-                      className="bg-cover bg-repeat lg:h-[211px] xl:h-[264px] 2xl:h-[297px] 3xl:h-[356px] items-center 2xl:px-[10px] 3xl:px-[12px] lg:px-[7px] xl:px-[8px] lg:w-[210px] xl:w-[263px] 2xl:w-[296px] 3xl:w-[355px]"
+                      className="common-pointer bg-cover bg-repeat lg:h-[211px] xl:h-[264px] 2xl:h-[297px] 3xl:h-[356px] items-center 2xl:px-[10px] 3xl:px-[12px] lg:px-[7px] xl:px-[8px] lg:w-[210px] xl:w-[263px] 2xl:w-[296px] 3xl:w-[355px]"
                       style={{
                         backgroundImage: "url('images/img_group22.png')",
                       }}
@@ -230,7 +230,7 @@ const Home1Page = () => {
                   </Row>
                 </Column>
                 <Column
-                  className="absolute bg-cover bg-repeat bottom-[0] lg:h-[212px] xl:h-[266px] 2xl:h-[299px] 3xl:h-[358px] items-center justify-end left-[17%] lg:px-[12px] xl:px-[15px] 2xl:px-[17px] 3xl:px-[20px] lg:w-[211px] xl:w-[265px] 2xl:w-[298px] 3xl:w-[357px]"
+                  className="common-pointer absolute bg-cover bg-repeat bottom-[0] lg:h-[212px] xl:h-[266px] 2xl:h-[299px] 3xl:h-[358px] items-center justify-end left-[17%] lg:px-[12px] xl:px-[15px] 2xl:px-[17px] 3xl:px-[20px] lg:w-[211px] xl:w-[265px] 2xl:w-[298px] 3xl:w-[357px]"
                   style={{ backgroundImage: "url('images/img_group23.png')" }}
                   onClick={navdance}
                 >
@@ -246,7 +246,7 @@ const Home1Page = () => {
                   </Row>
                 </Column>
                 <Column
-                  className="absolute bg-cover bg-repeat bottom-[0] lg:h-[237px] xl:h-[296px] 2xl:h-[333px] 3xl:h-[399px] justify-end lg:px-[11px] xl:px-[14px] 2xl:px-[16px] 3xl:px-[19px] right-[13%] lg:w-[236px] xl:w-[295px] 2xl:w-[332px] 3xl:w-[398px]"
+                  className="common-pointer absolute bg-cover bg-repeat bottom-[0] lg:h-[237px] xl:h-[296px] 2xl:h-[333px] 3xl:h-[399px] justify-end lg:px-[11px] xl:px-[14px] 2xl:px-[16px] 3xl:px-[19px] right-[13%] lg:w-[236px] xl:w-[295px] 2xl:w-[332px] 3xl:w-[398px]"
                   style={{ backgroundImage: "url('images/img_group24.png')" }}
                   onClick={navliterary}
                 >

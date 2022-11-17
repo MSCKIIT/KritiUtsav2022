@@ -13,9 +13,11 @@ const Footer = (props) => {
               className="lg:h-[18px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] w-[12%]"
               alt="mail"
             />
-            <Text className="rowmail" variant="body4">
-              kriti.utsav@kiit.ac.in
-            </Text>
+            <a href ="mailto:kriti.utsav@kiit.ac.in">
+              <Text className="rowmail" variant="body4" >
+                kriti.utsav@kiit.ac.in
+              </Text>
+            </a>
           </Row>
           <Row className="items-center justify-center lg:ml-[42px] xl:ml-[53px] 2xl:ml-[60px] 3xl:ml-[72px] w-[15%]">
             <Img
@@ -23,9 +25,11 @@ const Footer = (props) => {
               className="lg:h-[18px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:w-[17px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
               alt="call"
             />
-            <Text className="rowmail" variant="body4">
-              +91 9178358687
-            </Text>
+            <a href ="tel:+91 9178358687">
+              <Text className="rowmail" variant="body4">
+                +91 9178358687
+              </Text>
+            </a>
           </Row>
           <Row className="items-center lg:ml-[42px] xl:ml-[53px] 2xl:ml-[60px] 3xl:ml-[72px] w-[55%]">
             <Img
@@ -33,9 +37,11 @@ const Footer = (props) => {
               className="lg:h-[22px] xl:h-[27px] 2xl:h-[31px] 3xl:h-[37px] lg:w-[21px] xl:w-[26px] 2xl:w-[30px] 3xl:w-[36px]"
               alt="location"
             />
-            <Text className="rowmail" variant="body4">
-              Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar.
-            </Text>
+            <a href="https://goo.gl/maps/6gctXLwt1dVwmP4R7">
+              <Text className="rowmail" variant="body4">
+                Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar.
+              </Text>
+            </a>
           </Row>
         </Row>
       </footer>
