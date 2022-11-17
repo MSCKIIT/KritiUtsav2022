@@ -54,7 +54,7 @@ const Header = (props) => {
                         shape="RoundedBorder23"
                         size="sm"
                       >
-                        Signin/Signup
+                        Sign Up/ Login
                       </Button>
                     </Row>
                   </Row>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Header from "components/Header";
 import { Stack, Column, Button, Text, Row, Img } from "components";
 import Footer from "components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
@@ -32,10 +32,11 @@ const Home1Page = () => {
   return (
     <>
       <Stack className="bg-white_A700 font-montserrat lg:h-[1280px] xl:h-[1602px] 2xl:h-[1802px] 3xl:h-[2162px] mx-[auto] w-[100%]">
-        <Stack className="absolute bottom-[0] lg:h-[1334px] xl:h-[1668px] 2xl:h-[1877px] 3xl:h-[2252px] w-[100%]">
+        <Stack className="absolute lg:h-[1280px] xl:h-[1602px] 2xl:h-[1802px] 3xl:h-[2162px] w-[100%]">
           <Stack className="absolute 2xl:h-[1113px] 3xl:h-[1336px] lg:h-[791px] xl:h-[990px] top-[0] w-[100%]">
             <Stack className="absolute bg-orange_50 2xl:h-[1059px] 3xl:h-[1271px] lg:h-[753px] xl:h-[942px] lg:px-[17px] xl:px-[21px] 2xl:px-[24px] 3xl:px-[28px] top-[0] w-[100%]">
               <Stack className="absolute lg:h-[498px] xl:h-[623px] 2xl:h-[701px] 3xl:h-[841px] inset-x-[0] mx-[auto] top-[0] w-[92%]">
+              <Header className="lg:mt-[46px] xl:mt-[57px] 2xl:mt-[65px] 3xl:mt-[78px] w-[100%]" />
                 <Stack className="absolute lg:h-[125px] xl:h-[156px] 2xl:h-[176px] 3xl:h-[211px] right-[37%] top-[1%] w-[12%]">
                   {/* <Column className="absolute bg-bluegray_900 items-center justify-start left-[4%] lg:py-[33px] xl:py-[41px] 2xl:py-[47px] 3xl:py-[56px] right-[1%] rounded-radius10 shadow-bs1 w-[94%]">
                     {/* <Button
@@ -52,7 +53,7 @@ const Home1Page = () => {
                     Eligibility Certificate
                   </Text> */}
                 </Stack>
-                <Row className="absolute items-center justify-center right-[7%] top-[1%] w-[59%]">
+                {/* <Row className="absolute items-center justify-center right-[7%] top-[1%] w-[59%]">
                   <Text
                     className="font-semibold text-bluegray_900 w-[auto]"
                     variant="body3"
@@ -85,7 +86,7 @@ const Home1Page = () => {
                   >
                     Signin/Signup
                   </Button>
-                </Row>
+                </Row> */}
                 <Stack
                   className="absolute bg-cover bg-repeat bottom-[0] lg:h-[404px] xl:h-[506px] 2xl:h-[569px] 3xl:h-[682px] left-[0] 3xl:px-[100px] lg:px-[59px] xl:px-[74px] 2xl:px-[84px] lg:w-[403px] xl:w-[505px] 2xl:w-[568px] 3xl:w-[681px]"
                   style={{ backgroundImage: "url('images/img_group29.png')" }}
@@ -96,11 +97,7 @@ const Home1Page = () => {
                     alt="logoforwebOne"
                   />
                 </Stack>
-                <Img
-                  src="images/img_logoforweb1.png"
-                  className="absolute lg:h-[47px] xl:h-[58px] 2xl:h-[66px] 3xl:h-[79px] left-[5%] top-[0] w-[8%]"
-                  alt="logoforwebTwo"
-                />
+                
                 <Column className="absolute bottom-[15%] justify-start right-[0] w-[57%]">
                   <Column className="items-center justify-start w-[100%]">
                     <Text
