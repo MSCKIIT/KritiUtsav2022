@@ -1,24 +1,27 @@
 import React from "react";
 
-import { Stack, Column, Row, Img, Text, Button } from "components";
+import { Stack, Column, Row, Img, Text, /*Button*/ } from "components";
 import Footer from "components/Footer/Footer";
-import { useNavigate } from "react-router-dom";
+import Header from "components/Header";
+//import { useNavigate } from "react-router-dom";
 
 const ArtsPage = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  function navsign() {
-    navigate("/signin");
-  }
+  // function navsign() {
+  //   navigate("/signin");
+  // }
   return (
     <>
       <Stack className="bg-white_A700 font-montserrat lg:h-[1280px] xl:h-[1602px] 2xl:h-[1802px] 3xl:h-[2162px] mx-[auto] w-[100%]">
         <Stack className="absolute lg:h-[1280px] xl:h-[1602px] 2xl:h-[1802px] 3xl:h-[2162px] w-[100%]">
           <Stack className="absolute 2xl:h-[1113px] 3xl:h-[1336px] lg:h-[791px] xl:h-[990px] top-[0] w-[100%]">
             <Column className="absolute bg-orange_50 items-center justify-start lg:p-[17px] xl:p-[21px] 2xl:p-[24px] 3xl:p-[28px] top-[0] w-[100%]">
+            <Header className="lg:mt-[46px] xl:mt-[57px] 2xl:mt-[65px] 3xl:mt-[78px] w-[100%]" />
               <Column className="items-center justify-start lg:mb-[224px] xl:mb-[281px] 2xl:mb-[316px] 3xl:mb-[379px] w-[95%]">
                 <Column className="justify-start w-[100%]">
-                  <Row className="items-center lg:ml-[44px] xl:ml-[56px] 2xl:ml-[63px] 3xl:ml-[75px] w-[82%]">
+
+                  {/* <Row className="items-center lg:ml-[44px] xl:ml-[56px] 2xl:ml-[63px] 3xl:ml-[75px] w-[82%]">
                     <Img
                       src="images/img_logoforweb1.png"
                       className="lg:h-[47px] xl:h-[58px] 2xl:h-[66px] 3xl:h-[79px] w-[10%]"
@@ -58,7 +61,8 @@ const ArtsPage = () => {
                         Signin/Signup
                       </Button>
                     </Row>
-                  </Row>
+                  </Row> */}
+
                   <Row className="items-start justify-evenly lg:mt-[43px] xl:mt-[54px] 2xl:mt-[61px] 3xl:mt-[73px] w-[100%]">
                     <Stack
                       className="bg-cover bg-repeat lg:h-[404px] xl:h-[506px] 2xl:h-[569px] 3xl:h-[682px] 3xl:px-[100px] lg:px-[59px] xl:px-[74px] 2xl:px-[84px] lg:w-[403px] xl:w-[505px] 2xl:w-[568px] 3xl:w-[681px]"
