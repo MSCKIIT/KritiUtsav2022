@@ -37,8 +37,8 @@ const Home1Page = () => {
             <Stack className="absolute bg-orange_50 2xl:h-[1059px] 3xl:h-[1271px] lg:h-[753px] xl:h-[942px] lg:px-[17px] xl:px-[21px] 2xl:px-[24px] 3xl:px-[28px] top-[0] w-[100%]">
               <Stack className="absolute lg:h-[498px] xl:h-[623px] 2xl:h-[701px] 3xl:h-[841px] inset-x-[0] mx-[auto] top-[0] w-[92%]">
                 <Stack className="absolute lg:h-[125px] xl:h-[156px] 2xl:h-[176px] 3xl:h-[211px] right-[37%] top-[1%] w-[12%]">
-                  <Column className="absolute bg-bluegray_900 items-center justify-start left-[4%] lg:py-[33px] xl:py-[41px] 2xl:py-[47px] 3xl:py-[56px] right-[1%] rounded-radius10 shadow-bs1 w-[94%]">
-                    <Button
+                  {/* <Column className="absolute bg-bluegray_900 items-center justify-start left-[4%] lg:py-[33px] xl:py-[41px] 2xl:py-[47px] 3xl:py-[56px] right-[1%] rounded-radius10 shadow-bs1 w-[94%]">
+                    {/* <Button
                       className="font-semibold lg:mb-[22px] xl:mb-[27px] 2xl:mb-[31px] 3xl:mb-[37px] lg:text-[14px] xl:text-[17px] 2xl:text-[20px] 3xl:text-[24px] text-center w-[100%]"
                       variant="OutlineBlack9003f"
                     >
@@ -50,7 +50,7 @@ const Home1Page = () => {
                     variant="body4"
                   >
                     Eligibility Certificate
-                  </Text>
+                  </Text> */}
                 </Stack>
                 <Row className="absolute items-center justify-center right-[7%] top-[1%] w-[59%]">
                   <Text
@@ -101,7 +101,7 @@ const Home1Page = () => {
                   className="absolute lg:h-[47px] xl:h-[58px] 2xl:h-[66px] 3xl:h-[79px] left-[5%] top-[0] w-[8%]"
                   alt="logoforwebTwo"
                 />
-                <Column className="absolute bottom-[7%] justify-start right-[0] w-[57%]">
+                <Column className="absolute bottom-[15%] justify-start right-[0] w-[57%]">
                   <Column className="items-center justify-start w-[100%]">
                     <Text
                       className="leading-[normal] text-bluegray_900 text-center w-[100%]"
@@ -118,7 +118,7 @@ const Home1Page = () => {
                       23rd - 27th December 2022
                     </Text>
                   </Column>
-                  <Row className="items-center justify-end ml-[auto] lg:mt-[55px] xl:mt-[69px] 2xl:mt-[78px] 3xl:mt-[93px] w-[59%]">
+                  <Row className="items-center justify-end ml-[10%] w-[70%]">
                     <Text
                       className="font-semibold text-bluegray_900 w-[auto]"
                       variant="body6"
