@@ -2,8 +2,14 @@ import React from "react";
 
 import { Stack, Column, Row, Img, Text, Button } from "components";
 import Footer from "components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 const LiteraryPage = () => {
+  const navigate = useNavigate();
+
+  function navsign() {
+    navigate("/signin");
+  }
   return (
     <>
       <Stack className="bg-white_A700 font-montserrat lg:h-[1280px] xl:h-[1602px] 2xl:h-[1802px] 3xl:h-[2162px] mx-[auto] w-[100%]">
@@ -44,11 +50,12 @@ const LiteraryPage = () => {
                         Contact
                       </Text>
                       <Button
-                        className="font-bold lg:text-[15px] xl:text-[19px] 2xl:text-[22px] 3xl:text-[26px] text-center w-[20%]"
+                        className="common-pointer font-bold lg:ml-[32px] xl:ml-[40px] 2xl:ml-[46px] 3xl:ml-[55px] lg:text-[15px] xl:text-[19px] 2xl:text-[22px] 3xl:text-[26px] text-center w-[29%]"
+                        onClick={navsign}
                         shape="RoundedBorder23"
                         size="sm"
                       >
-                        Signin
+                        Signin/Signup
                       </Button>
                     </Row>
                   </Row>
