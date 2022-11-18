@@ -1,5 +1,5 @@
 import React from "react";
-
+import Header from "components/Header";
 import {
   Column,
   Row,
@@ -32,8 +32,9 @@ const SigninPage = () => {
         <Column className="items-center justify-end w-[100%]">
           <Column className="bg-orange_50 items-center justify-start lg:py-[17px] xl:py-[21px] 2xl:py-[24px] 3xl:py-[28px] w-[100%]">
             <Column className="items-center justify-start lg:mb-[39px] xl:mb-[48px] 2xl:mb-[55px] 3xl:mb-[66px] w-[100%]">
+            <Header className="lg:mt-[46px] xl:mt-[57px] 2xl:mt-[65px] 3xl:mt-[78px] w-[100%]" />
               <Column className="justify-start w-[100%]">
-                <Row className="items-center justify-between lg:ml-[105px] xl:ml-[131px] 2xl:ml-[148px] 3xl:ml-[177px] w-[81%]">
+                {/* <Row className="items-center justify-between lg:ml-[105px] xl:ml-[131px] 2xl:ml-[148px] 3xl:ml-[177px] w-[81%]">
                   <Img
                     src="images/img_logoforweb1.png"
                     className="common-pointer lg:h-[47px] xl:h-[58px] 2xl:h-[66px] 3xl:h-[79px] w-[9%]"
@@ -73,7 +74,7 @@ const SigninPage = () => {
                       Signin/Signup
                     </Button>
                   </Row>
-                </Row>
+                </Row> */}
                 <Row className="items-start lg:ml-[51px] xl:ml-[64px] 2xl:ml-[73px] 3xl:ml-[87px] 3xl:mt-[109px] lg:mt-[64px] xl:mt-[80px] 2xl:mt-[91px] w-[85%]">
                   <Stack
                     className="bg-cover bg-repeat lg:h-[286px] xl:h-[358px] 2xl:h-[403px] 3xl:h-[483px] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] lg:px-[25px] xl:px-[32px] 2xl:px-[36px] 3xl:px-[43px] lg:w-[285px] xl:w-[357px] 2xl:w-[402px] 3xl:w-[482px]"

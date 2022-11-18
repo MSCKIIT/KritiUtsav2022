@@ -33,6 +33,18 @@ const Home = () => {
         <li>
           <Link to="/dashboard">Dashboard</Link>
         </li>
+        <li>
+          <Link to="/dashboarddance">DashboardDance</Link>
+        </li>
+        <li>
+          <Link to="/dashboardtheatre">DashboardTheatre</Link>
+        </li>
+        <li>
+          <Link to="/dashboardmusic">DashboardMusic</Link>
+        </li>
+        <li>
+          <Link to="/dashboardlit">DashboardLit</Link>
+        </li>
       </ul>
     </div>
   );
