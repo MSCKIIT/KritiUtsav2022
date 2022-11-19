@@ -23,7 +23,7 @@ const SigninPage = () => {
     navigate("/dashboard");
   }
   function handleNavigate3() {
-    navigate("/dashboard");
+    navigate("/login"); 
   }
 
   return (
@@ -181,7 +181,7 @@ const SigninPage = () => {
                             <Text
                               className="common-pointer bg-orange_300 font-bold lg:ml-[33px] xl:ml-[41px] 2xl:ml-[47px] 3xl:ml-[56px] xl:mt-[10px] 2xl:mt-[12px] 3xl:mt-[14px] lg:mt-[8px] lg:px-[24px] xl:px-[30px] 2xl:px-[34px] 3xl:px-[40px] py-[3px] rounded-radius17 text-pink_901 w-[166px]"
                               variant="body3"
-                              onClick={handleNavigate3}
+                              onClick={handleNavigate2}
                             >
                               Register
                             </Text>
@@ -232,7 +232,7 @@ const SigninPage = () => {
                             <Text
                               className="common-pointer bg-pink_900 font-bold lg:mt-[10px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] lg:px-[24px] xl:px-[31px] 2xl:px-[35px] 3xl:px-[42px] py-[3px] rounded-radius17 text-orange_100 w-[166px]"
                               variant="body3"
-                              onClick={handleNavigate2}
+                              onClick={handleNavigate3}
                             >
                               Submit
                             </Text>

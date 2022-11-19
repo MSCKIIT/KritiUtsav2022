@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "components/Header";
-import { Stack, Column, Button, Text, Row, Img } from "components";
+import { Stack, Column, Button, Modal, Text, Row, Img } from "components";
 import Footer from "components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
 
@@ -222,6 +222,7 @@ const Home1Page = () => {
                           className="xl:h-[11px] 2xl:h-[13px] 3xl:h-[15px] lg:h-[9px] lg:ml-[5px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] w-[5%]"
                           alt="arrowright Two"
                         />
+                        
                       </Row>
                     </Column>
                   </Row>

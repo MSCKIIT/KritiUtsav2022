@@ -5,6 +5,7 @@ import DashboardDance from "pages/DashboardDance";
 import DashboardTheatre from "pages/DashboardTheatre";
 import DashboardMusic from "pages/DashboardMusic";
 import Signin from "pages/Signin";
+import Login from "pages/Login";
 import Music from "pages/Music";
 import Theatre from "pages/Theatre";
 import Dance from "pages/Dance";
@@ -29,6 +30,7 @@ const ProjectRoutes = () => {
         <Route path="/arts" element={<Arts />} />
         <Route path="/theatre" element={<Theatre />} />
         <Route path="/signin" element={<Signin />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/dashboardlit" element={<DashboardLit />} />
         <Route path="/dashboardmusic" element={<DashboardMusic />} />
